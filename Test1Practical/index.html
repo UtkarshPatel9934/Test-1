@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Fruit Collector</title>
+	<link href="styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<div>
+			Fruit Collector!
+		</div>
+	</header>
+	<section id="container">
+		<div id="buttons">
+			<button class="fruit" id="apples">Collect an apple</button>
+			<button class="fruit" id="bananas">Collect a banana</button>
+			<button class="fruit" id="oranges">Collect an orange</button>
+			<button class="fruit" id="grapes">Collect a grape</button>
+		</div>
+		<div id="quantites">
+			<div class="fruit-quantity">
+				Apples collected: Today - <span id="apples-quantity">0</span> | All Time - <span
+					id="apples-quantity-all-time"></span>
+			</div>
+			<div class="fruit-quantity">
+				Bananas collected: Today - <span id="bananas-quantity">0</span> | All Time - <span
+					id="bananas-quantity-all-time"></span>
+			</div>
+			<div class="fruit-quantity">
+				Oranges collected: Today - <span id="oranges-quantity">0</span> | All Time - <span
+					id="oranges-quantity-all-time"></span>
+			</div>
+			<div class="fruit-quantity">
+				Grapes collected: Today - <span id="grapes-quantity">0</span> | All Time - <span
+					id="grapes-quantity-all-time"></span>
+			</div>
+		</div>
+		<div id="totals">
+			<div>Total fruit collected today: <span id="totals-today">0</span></div>
+			<div>Total fruit collected over all time: <span id="totals-all-time"></span></div>
+		</div>
+		<div id="location">
+			You're collecting fruit at this location: <span id="location-coordinates"></span>
+		</div>
+	</section>
+	<footer>
+		<div id="success-message">
+			Congradulations! You've collected enough of each fruit to go onto the next day.
+		</div>
+		<button id="next-day" onclick="location.reload()"><span>Click here to refresh to the next day!</span></button>
+	</footer>
+
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>

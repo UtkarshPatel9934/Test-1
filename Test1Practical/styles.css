@@ -1,0 +1,50 @@
+header{
+  font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+  color: darkgreen;
+}
+section{
+  text-align: center;
+}
+#quantites, #totals{
+  border: 2px dashed #888;
+  padding: 16px;
+  margin: 0 auto 16px auto;
+  width: 500px;
+}
+#location{
+  font-weight: bold;
+}
+button{
+  position: relative;
+  display: inline-block;
+  margin: 16px;
+  padding: 8px;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  background-color: #fff;
+  color: #222;
+  transition: background-color .3s;
+}
+button#apples:hover, button#apples:focus {
+  background-color:crimson;
+}
+button#bananas:hover, button#bananas:focus {
+  background-color:gold;
+}
+button#oranges:hover, button#oranges:focus {
+  background-color:orange;
+}
+button#grapes:hover, button#grapes:focus {
+  background-color:darkorchid;
+}
+footer{
+  text-align: center;
+}
+#next-day, #success-message{
+  display: none;
+}
